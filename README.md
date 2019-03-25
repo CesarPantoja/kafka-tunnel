@@ -3,6 +3,13 @@ kafkatunnel.py
 ============
 Access kafka/zookeeper via ssh tunnel to consume and produce messages from your local machine
 
+This branch has the following changes from origin:
+
+- Search for aws instances using wildcards. i.e.: \*kafka\* and \*zookeeper\*, so as long as the instances have the words 
+in their names, they should be picked up
+- Corrected the command to remove the addresses in Linux
+- Code formatting changes 
+
 Requirements
 ------------
 You need python3 in order to use kafkatunnel.py
